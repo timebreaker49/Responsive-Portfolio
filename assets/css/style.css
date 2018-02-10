@@ -1,0 +1,153 @@
+body {
+	background-color: #E7E7E7;
+}
+
+.wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 70px;
+	padding: 12px 2px;
+	background-color: #ffffff;
+}
+
+nav .logo {
+	margin: 0 20px;
+	padding: 7px 20px;
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+nav ul {
+	list-style: none;
+	float: right; 
+	margin: 0;
+	display: flex;
+	padding: 5px;
+}
+
+nav ul li a{
+	line-height: 80px;
+	padding: 22px 12px;
+	color: #777777;
+}
+
+
+h2 {
+	color: #4aaaa5;
+	border: 5px;
+	border-color: #cccccc;
+	font-family: Georgia;
+	margin-bottom: 25px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: auto;
+}
+
+.container {
+	width: 960px;
+	margin: 115px auto 0;
+	padding: 20px;
+}
+
+.main-content, 
+.aside {
+	float: left;
+	 background-color: #ffffff;
+	 border-color: #dddddd;
+	 border-width: 1px;
+}
+
+.main-content {
+	width: 600px;
+	padding: 25px;
+	margin-right: 10px;
+}
+
+.aside {
+	width: 230px;
+	padding: 20px;
+	margin-left: 10px;
+}
+
+#social-button {
+	width: 70px;
+	height: 70px;
+}
+
+.bio-image {
+	float: left;
+	padding-right: 20px;
+}
+
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #666666;
+  text-align: center;
+  height: 30px;
+  border-top: 3px;
+  border-top-style: solid;
+  border-color: #4aaaa5;
+  color: white;
+}
+
+.group {
+	width: 100%;
+	margin: 8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.form {
+	border-radius: 5px;
+	padding: 0 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+label {
+	display: block;
+	margin-bottom: 7px;
+}
+
+input {
+	width: 100%;
+	padding: 5px 2px;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+button {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.portfolio-image {
+	padding: 15px 10px;
+	width: 45%;
+}
+
+.description-1{
+	position: absolute;	
+	top: 400px;
+	left: 215px;
+	width: 270px;
+	background-color: black;
+	color: white;
+}
